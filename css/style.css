@@ -90,9 +90,10 @@ body {
 #gnb .depth2 {
   outline: 1px solid red;
   padding: 30px 0;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   background: #ddd;
   display: none;
+  transform: translateY(25px);
 }
 
 #gnb .depth2 > li > a {
