@@ -19,6 +19,10 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   color: var(--text-color);
@@ -263,4 +267,48 @@ body {
 #about .title p {
   font-size: 22px;
   margin-bottom: 60px;
+}
+
+
+/* 제품정보 */
+#products {
+  background: #ECECEC;
+}
+#products .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#products h2 {
+  color: var(--main-color);
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+#products .product-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#products .product-box .product {
+  background: #fff;
+  padding-bottom: 24px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+#products .product-box .product img {
+  margin-bottom: 30px;
+}
+
+#products .product-box .product h3 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+#products .product-box .product a {
+  font-size: 16px;
+  color: var(--main-color);
+  text-decoration: underline;
 }
