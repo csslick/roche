@@ -29,6 +29,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  outline: 1px solid #999;
 }
 
 .top-menu {
@@ -214,4 +215,52 @@ body {
   right: 0px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/* 버튼 스타일 */
+.btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background: var(--main-color);
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* insde Roche(about) */
+#about .container {
+  display: flex;
+  padding: 100px 0;
+}
+
+#about .title {
+  padding-right: 60px;
+  padding-top: 40px;
+}
+
+#about .title h2 {
+  font-size: 56px;
+}
+
+#about .title h2 span {
+  font-weight: 400;
+}
+
+#about .title p {
+  font-size: 22px;
+  margin-bottom: 60px;
 }
