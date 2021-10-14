@@ -6,13 +6,13 @@ $(function(){
       $(this)
         .find('.depth2')
         .stop()
-        .slideDown();
+        .slideDown(300);
     },
     function(){
       $(this)
         .find('.depth2')
         .stop()
-        .slideUp();
+        .slideUp(300);
     }
   );
 
