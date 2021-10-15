@@ -3,7 +3,7 @@
   --main-color: #0066CC;
   --text-color: #333;
   --footer-bg-color: #e2e2e2;
-  --outline-color: none;
+  --outline-color: transparent;
 }
 
 * {
@@ -30,10 +30,13 @@ body {
   color: var(--text-color);
   font-size: 18px; 
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1000px;
   margin: 0 auto;
   outline: 1px solid var(--outline-color);
 }
@@ -43,7 +46,6 @@ body {
   text-align: right;
   padding: 10px 0;
   font-size: 14px;
-  min-width: 1200px;
 }
 
 .top-menu ul li {
@@ -63,7 +65,8 @@ body {
 
 #main-header .header-box {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 1000px;
   height: 80px;
   margin: 0 auto;
   /* background: #ccc; */
@@ -202,7 +205,8 @@ body {
 /* pager */
 .pager {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 1000px;
   height: 600px;
   /* background: #ccc; */
   z-index: 10;
