@@ -312,3 +312,27 @@ body {
   color: var(--main-color);
   text-decoration: underline;
 }
+
+#responsibility {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ccc;
+  max-width: 1920px;
+  margin: 0 auto;
+  color: #fff;
+  background-image: url(../images/responsibility-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#responsibility h2 {
+  margin-bottom: 60px;
+}
+
+#responsibility p {
+  font-size: 22px;
+  line-height: 38px;
+  margin-bottom: 55px;
+}
