@@ -3,6 +3,7 @@
   --main-color: #0066CC;
   --text-color: #333;
   --footer-bg-color: #e2e2e2;
+  --outline-color: none;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: 1px solid #999;
+  outline: 1px solid var(--outline-color);
 }
 
 .top-menu {
