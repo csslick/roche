@@ -2,6 +2,7 @@
 :root {
   --main-color: #0066CC;
   --text-color: #333;
+  --footer-bg-color: #e2e2e2;
 }
 
 * {
@@ -422,4 +423,27 @@ body {
 
 #contact form button#submit {
   margin-top: 30px;
+}
+
+#main-footer {
+  background: var(--footer-bg-color);
+}
+#main-footer .container{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#main-footer .footer-link a {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-weight: 400;
+  margin-right: 1.2em;
+  display: inline-block;
+}
+#main-footer .footer-link {
+  margin-bottom: 24px;
+}
+#main-footer .footer-info {
+  font-size: 14px;
+  color: #6a6a6a;
 }
