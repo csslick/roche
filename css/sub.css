@@ -1,0 +1,25 @@
+/* sub.css */
+
+/* sub1-1 기업소개 */
+#sub1-1 #sub-title {
+  width: 100%;
+  position: relative;
+  height: 388px;
+}
+#sub1-1 #sub-header {
+  width: 1920px;
+  height: 388px;
+  background: #abc;
+  background-image: url(../images/sub1-1-title-bg.jpg);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#sub1-1 #sub-header .container {
+  outline: 1px solid red;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
