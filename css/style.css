@@ -30,7 +30,7 @@ body {
   color: var(--text-color);
   font-size: 18px; 
   font-weight: 400;
-  overflow-x: hidden;
+  min-width: 1200px;
 }
 
 .container {
@@ -184,6 +184,7 @@ body {
 
 #main-visual {
   position: relative;
+  overflow: hidden;  /* 페이지 스크롤 방지 클리핑 */
 }
 
 #main-visual .slider {
