@@ -7,20 +7,24 @@
   color: #fff;
 }
 
+#main h3 {
+  font-size: 34px;
+}
+
 #main .container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 /* sub1-1 기업소개 */
-#sub1-1 #sub-title {
+#sub-title {
   width: 100%;
   position: relative;
   height: 388px;
 }
 
 /* 배경이 각 서브페이지 별로 다름 */
-#sub1-1 #sub-header {
+#sub-header {
   width: 100%;
   height: 388px;
   background: #abc;
@@ -29,7 +33,7 @@
   background-position: center;
 }
 
-#sub1-1 #sub-header .container {
+#sub-header .container {
   /* outline: 1px solid red; */
   height: 100%;
   display: flex;
@@ -67,5 +71,16 @@
 }
 #sub1-1 #main article .article-group:first-of-type {
   width: 50%;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
+  padding-left: 60px;
+}
+
+#sub1-1 #main article p em {
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+}
+
+#sub1-1 #main article .article-group:last-child {
+  margin-top: 50px;
 }
